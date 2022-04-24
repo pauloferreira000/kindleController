@@ -1,7 +1,4 @@
-<<<<<<< HEAD
 import numpy as np
-=======
->>>>>>> 138268d1165b80177657a9d3eff18b0485aa0fa7
 import cv2
 
 cap = cv2.VideoCapture(0)
@@ -40,9 +37,5 @@ while (True):
     if key == 27:
         break
 
-<<<<<<< HEAD
-=======
-
->>>>>>> 138268d1165b80177657a9d3eff18b0485aa0fa7
 cap.release()
 cv2.destroyAllWindows()
